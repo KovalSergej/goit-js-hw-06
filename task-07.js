@@ -1,5 +1,5 @@
 "use strict";
-import users from "/users.js";
+import users from "./users.js";
 
 const calculateTotalBalance = (users) =>
   users.reduce((acc, user) => acc + user.balance, 0);

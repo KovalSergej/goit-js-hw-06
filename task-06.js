@@ -1,5 +1,5 @@
 "use strict";
-import users from "/users.js";
+import users from "./users.js";
 
 const getUsersWithAge = (users, min, max) =>
   users.filter((user) => min < user.age && user.age < max);
